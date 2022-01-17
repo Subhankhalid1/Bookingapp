@@ -1,0 +1,38 @@
+.Ccontainer{
+    
+    width: '90%';
+    height: 'auto';
+    
+    margin: auto;
+    display: flex;
+    padding-top: 10px!important;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+.abx:hover{
+background-color: rgb(113, 111, 223);
+}
+
+.child2::-webkit-scrollbar{
+    scroll-behavior: auto;
+    
+}
+
+@media (min-width:0px) and (max-width:767px) {
+    .Ccontainer{
+    
+        width: '100%';
+        height: 'auto';
+       
+        margin: auto;
+        flex-direction: column!important;
+        padding-top: 10px!important;
+        box-shadow: 2px 2px 2px 2px grey;
+    }
+    .child2{
+        flex-direction: row;
+        width: 100%!important;
+
+    }
+    
+
+}
